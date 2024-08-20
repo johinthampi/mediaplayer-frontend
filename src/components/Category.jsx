@@ -94,7 +94,7 @@ function Category() {
           <div
             key={item.id}
             className="m-3 border border-secondary rounded p-3"
-            droppable
+            droppable="true"
             onDragOver={(e) => dragOver(e)}
             onDrop={(e)=>videoDrop(e,item.id)}
           >
